@@ -1,0 +1,12 @@
+if(global.heart_rate > global.thoughts_start) {
+	if(choose("Happy","Mad") == "Happy") {
+		execute_file("Thoughts/GenerateHappyThought.txt");
+	} else {
+		execute_file("Thoughts/GenerateMadThought.txt");
+	}
+}
+
+
+if(global.heart_rate > global.extra_madness) {
+	execute_file("Thoughts/GenerateMadThought.txt");
+}

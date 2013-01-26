@@ -1,0 +1,17 @@
+//player health/sanity
+global.sagacity = 100;
+
+//game timer
+global.heart_rate = 0;
+
+//time of events
+global.head_ache = 40;
+global.heart_starts = global.head_ache + 20;
+global.thoughts_start = global.heart_starts + 10;
+global.beating = global.heart_starts + 20;
+global.rising4 = global.beating + 20;
+global.rising5 = global.rising4 + 20;
+global.rising6 = global.rising5 + 20;
+global.rising7 = global.rising6 + 20;
+global.rising8 = global.rising7 + 20;
+global.extra_madness = global.rising7;

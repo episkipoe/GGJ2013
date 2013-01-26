@@ -1,0 +1,5 @@
+if(room==MurderRoom) {
+    execute_file("Rooms/Exposition.txt");
+} else if(room==ExpositionRoom) {
+    execute_file("Rooms/Door.txt");
+}

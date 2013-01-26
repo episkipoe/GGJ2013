@@ -1,0 +1,14 @@
+if(room != OfficerRoom) exit;
+global.sagacity = global.sagacity - 1;
+global.heart_rate = global.heart_rate + 1;
+
+if(global.sagacity <= 0) {
+	execute_file("GameLose.txt");
+	exit;
+}
+
+execute_file("HeartSounds.txt");
+
+with Thought {
+	execute_file("Thoughts/event.txt");
+}

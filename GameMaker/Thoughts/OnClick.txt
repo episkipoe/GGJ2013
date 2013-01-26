@@ -1,0 +1,5 @@
+global.sagacity += sagacity_delta;
+if(global.sagacity > 100) {
+	global.sagacity = 100;
+}
+instance_destroy();

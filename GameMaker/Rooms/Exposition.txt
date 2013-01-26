@@ -1,0 +1,2 @@
+room_goto(ExpositionRoom);
+sound_play(ExpositionSound);

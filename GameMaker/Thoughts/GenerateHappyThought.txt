@@ -1,0 +1,2 @@
+objectName = choose(Happy1,Happy2);
+instance_create(0,0,objectName);

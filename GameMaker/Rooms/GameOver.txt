@@ -1,0 +1,2 @@
+room_goto(GameOverRoom);
+sound_play(GameOverSound);

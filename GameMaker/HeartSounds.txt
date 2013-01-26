@@ -1,0 +1,31 @@
+if(global.heart_rate == global.head_ache) {
+	sound_play(Rising1);
+} else if(global.heart_rate == global.heart_starts) {
+	sound_play(Rising2);
+} else if(global.heart_rate == global.beating) {
+	sound_play(Rising3);
+} else if(global.heart_rate == global.rising4) {
+	sound_play(Rising4);
+} else if(global.heart_rate == global.rising5) {
+	sound_play(Rising5);
+} else if(global.heart_rate == global.rising6) {
+	sound_play(Rising6);
+} else if(global.heart_rate == global.rising7) {
+	sound_play(Rising7);
+} else if(global.heart_rate == global.rising8) {
+	sound_play(Rising8);
+}
+
+if(global.heart_rate > global.heart_starts) {
+	if (global.heart_rate < global.rising4) {
+		sound_play(Heart1);
+	} else if (global.heart_rate < global.rising5) {
+		sound_play(Heart2);
+	} else if (global.heart_rate < global.rising6) {
+		sound_play(Heart3);
+	} else if (global.heart_rate < global.rising7) {
+		sound_play(Heart4);
+	} else {
+		sound_play(Heart5);
+	}
+}

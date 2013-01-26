@@ -1,0 +1,3 @@
+execute_file("GameStart.txt");
+room_goto(DoorRoom);
+sound_play(DoorSound);
